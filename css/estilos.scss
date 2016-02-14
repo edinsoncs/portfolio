@@ -1240,3 +1240,55 @@ body {
     margin-left: 15em;
   }
 }
+.Lineas__Six {
+  background: white;
+  height: 5px;
+  width: 150px;
+  animation: lineasSix 5s infinite;
+  margin: 0 0 2em 0;
+}
+@keyframes lineasSix {
+  55% {
+    margin-left: 15em;
+  }
+}
+
+.Lineas__Sevent {
+  background: white;
+  height: 5px;
+  width: 150px;
+  animation: lineasSevent 5s infinite;
+  margin: 0 0 2em 0;
+}
+@keyframes lineasSevent {
+  55% {
+    margin-left: 15em;
+  }
+}
+.Lineas__Eight {
+  background: white;
+  height: 5px;
+  width: 150px;
+  animation: lineasEight 5s infinite;
+  margin: 0 0 2em 0;
+}
+@keyframes lineasEight {
+  55% {
+    margin-left: 15em;
+  }
+}
+.Lineas__Tweelven {
+  background: white;
+  height: 5px;
+  width: 150px;
+  animation: lineasTwelven 5s infinite;
+  margin: 0 0 2em 0;
+}
+@keyframes lineasTwelven {
+  55% {
+    margin-left: 15em;
+  }
+}
+
+
+
