@@ -1,0 +1,71 @@
+doctype html
+html(lang="es", ng-app="portfolio")
+	head
+		meta(charset="UTF-8")
+		meta(name="description", content="Edinson Carranza Saldaña Frontend y Backend Developer")
+		title Edinson Carranza Saldaña
+		link(rel="stylesheet", href="./css/normalize.css")
+		link(rel="stylesheet", href="./css/estilos.css")
+		script(src="http://code.jquery.com/jquery-1.11.3.min.js")
+		script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js")
+		script(src="js/app.js")
+		script(src="js/prefixfree.min.js")
+	body 
+	header(class="home__Top")
+		section(class="home__Top--Cont")
+			
+			div(class="home__Top--Lineas")
+				div(class="Lineas")
+				div(class="Lineas__Twoo")
+				div(class="Lineas__Tree")
+				div(class="Lineas__Four")
+				div(class="Lineas__Five")
+				div(class="Lineas__Six")
+
+
+			figure(class="home__Top--Avatar u--Margen")
+				img(class="Avatar", src="./img/avatar.jpg" alt="Edinson Carranza Saldaña")
+				
+				div(class="home__Top--Avatar--yo")
+					h2(class="Avatar--yo u--Margen") YO!!!
+
+				h1(class="home__Top--Name u--Margen u--Blanco") Edinson Carranza Saldaña
+				
+				h2(class="home__Top--Job u--Margen u--Blanco") Frontend Developer
+			
+			article(class="home--About", ng-controller="perfil as p")
+				fieldset(class="About")
+					header(class="About--Header")
+						h2(class="Title") QUIEN SOY?
+					fieldset(class="About--Cont")
+						label(class="About--Title") Nombre: 
+						span(class="About--Text") {{p.cv.name}}
+					fieldset(class="About--Cont")
+						label(class="About--Title") Email: 
+						span(class="About--Text") {{p.cv.email}}
+					fieldset(class="About--Cont")
+						label(class="About--Title") Celular: 
+						span(class="About--Text") {{p.cv.phone}}
+					fieldset(class="About--Cont")
+						label(class="About--Title") Nacimiento: 
+						span(class="About--Text") {{p.cv.birthday}}
+					fieldset(class="About--Cont")
+						label(class="About--Title") Vivo en: 
+						span(class="About--Text") {{p.cv.city}}
+					fieldset(class="About--Cont")
+						label(class="About--Title") Nacionalidad: 
+						span(class="About--Text") {{p.cv.from}}
+					
+					
+					
+
+
+	main
+		section(class="home__Contenido")
+			article(class="home__Contenido--Cont")
+				article(class="home__Contenido--Yo")
+					header(class="Contenido--Yo--Header")
+						h2(class="Title u--Margen") Quién Soy?
+					div(class="Contenido--Yo--Description")
+						p(class="MiDescription") Soy un joven con conocimientos en el desarrollo web y marketing digital, inicie hace 7 años, con el transcurso del tiempo me ido actualizando en nuevas tecnologias
+						p(class="MiDescription") Soy un joven con conocimientos en el desarrollo web y marketing digital, inicie hace 7 años, con el transcurso del tiempo me ido actualizando en nuevas tecnologias como nodejs expressjs grunt gulp y mas cosas bla bla bla bla bla bla bla llenate texto jajaja lero lero tambien con rails lero lero jajaja lena texto donde estas lorem xD
