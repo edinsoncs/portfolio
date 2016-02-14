@@ -1289,6 +1289,30 @@ body {
     margin-left: 15em;
   }
 }
+.Lineas__Tree {
+  background: white;
+  height: 5px;
+  width: 150px;
+  animation: lineasTree 5s infinite;
+  margin: 0 0 2em 0;
+}
+@keyframes lineasTree {
+  55% {
+    margin-left: 15em;
+  }
+}
+.Lineas__Fourty {
+  background: white;
+  height: 5px;
+  width: 150px;
+  animation: lineasFourty 5s infinite;
+  margin: 0 0 2em 0;
+}
+@keyframes lineasFourty {
+  55% {
+    margin-left: 15em;
+  }
+}
 
 
 
